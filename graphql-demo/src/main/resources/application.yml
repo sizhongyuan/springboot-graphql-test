@@ -1,5 +1,5 @@
 server:
-  port: 6001
+  port: 8080
 spring:
   datasource:
     name: test
@@ -12,3 +12,6 @@ mybatis:
   typeAliasesPackage: com.derek.graphql.demo.mapper
   # 配置mapper的扫描，找到所有的mapper.xml映射文件
   # mapperLocations: classpath:mapper/**/*.xml
+springfox:
+  documentation:
+    auto-startup: true
