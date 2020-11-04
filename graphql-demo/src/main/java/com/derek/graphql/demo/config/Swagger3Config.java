@@ -36,9 +36,9 @@ public class Swagger3Config implements WebMvcConfigurer {
     //生成接口信息，包括标题、联系人等
     private ApiInfo apiInfo() {
         return new ApiInfoBuilder()
-                .title("Swagger3接口文档")
-                .description("如有疑问，请联系开发工程师老刘。")
-                .contact(new Contact("刘宏缔", "https://www.cnblogs.com/architectforest/", "371125307@qq.com"))
+                .title("Swagger3测试用接口文档")
+                .description("如有疑问，请联系开发工程师张三。")
+                .contact(new Contact("张三", "https://zhangsan.com", "zhangsan@qq.com"))
                 .version("1.0")
                 .build();
     }
