@@ -3,11 +3,10 @@ package com.derek.graphql.demo.resolver;
 import com.derek.graphql.demo.entity.Article;
 import com.derek.graphql.demo.entity.User;
 import graphql.kickstart.tools.GraphQLMutationResolver;
-import graphql.kickstart.tools.GraphQLQueryResolver;
 import org.springframework.stereotype.Component;
 
 @Component
-public class MutationResolver implements GraphQLQueryResolver, GraphQLMutationResolver {
+public class MutationResolver implements GraphQLMutationResolver {
 
     public User addUser(String mail, String nickname, String password) {
         return null;
@@ -17,3 +16,4 @@ public class MutationResolver implements GraphQLQueryResolver, GraphQLMutationRe
         return null;
     }
 }
+ 

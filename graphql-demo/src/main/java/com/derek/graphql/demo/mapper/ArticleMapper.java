@@ -11,7 +11,7 @@ public interface ArticleMapper {
 
     @Select("<script>" +
             "select * from articles " +
-            "where titile = #{title}" +
+            "where title = #{title}" +
             "</script>")
     Article findArticleByTitle(String title);
     @Select("<script>" +
