@@ -1,0 +1,25 @@
+query{
+    user(nickname:"帕拉甲"){
+        id,
+        nickname,
+        mail
+    }
+}
+query{
+    users{
+        id
+    }
+}
+query{
+    article(title:"123"){
+        id,
+        author{
+            id,nickname
+        }
+    },
+    user(nickname:"帕拉甲"){
+        id,
+        nickname,
+        mail
+    }
+}

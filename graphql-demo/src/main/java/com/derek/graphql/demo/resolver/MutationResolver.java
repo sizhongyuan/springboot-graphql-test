@@ -16,4 +16,3 @@ public class MutationResolver implements GraphQLMutationResolver {
         return null;
     }
 }
- 
